@@ -114,10 +114,10 @@ public string Name => name.Value;
 ```
 
 ### References
-- MSDN: https://docs.microsoft.com/en-us/dotnet/api/system.lazy-1?view=net-5.0[Lazy<T> Class].
-- MSDN: https://docs.microsoft.com/en-us/dotnet/api/system.threading.lazyinitializer.ensureinitialized?view=net-5.0[LazyInitializer.EnsureInitialized Method].
-- MSDN: https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650316(v=pandp.10)?redirectedfrom=MSDN[Implementing Singleton in C#].
-- MSDN Magazine: https://docs.microsoft.com/en-us/archive/msdn-magazine/2012/december/csharp-the-csharp-memory-model-in-theory-and-practice[The C# Memory Model in Theory and Practice].
-- MSDN, C# Reference: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile[volatile].
-- Wikipedia: https://en.wikipedia.org/wiki/Double-checked_locking[Double-checked locking].
-- Common Weakness https://cwe.mitre.org/data/definitions/609.html[Enumeration: CWE-609].
+- MSDN: [Lazy<T> Class](https://docs.microsoft.com/en-us/dotnet/api/system.lazy-1?view=net-5.0).
+- MSDN: [LazyInitializer.EnsureInitialized Method](https://docs.microsoft.com/en-us/dotnet/api/system.threading.lazyinitializer.ensureinitialized?view=net-5.0).
+- MSDN: [Implementing Singleton in C#](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff650316(v=pandp.10)?redirectedfrom=MSDN).
+- MSDN Magazine: [The C# Memory Model in Theory and Practice](https://docs.microsoft.com/en-us/archive/msdn-magazine/2012/december/csharp-the-csharp-memory-model-in-theory-and-practice).
+- MSDN, C# Reference: [volatile](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile).
+- Wikipedia: [Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking).
+- Common Weakness [Enumeration: CWE-609](https://cwe.mitre.org/data/definitions/609.html).
