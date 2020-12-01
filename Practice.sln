@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Tests", "Pattern\Singleton\Singleton.Tests\Singleton.Tests.csproj", "{474A70F6-5A55-4C04-8A12-7E16868E0043}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Pattern\Singleton\Singleton\Singleton.csproj", "{64E94822-6C46-4B6D-8586-A6C559E1987B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pattern", "Pattern", "{A2DD18E2-6BFB-427F-96B1-11E09F9D5878}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474A70F6-5A55-4C04-8A12-7E16868E0043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474A70F6-5A55-4C04-8A12-7E16868E0043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474A70F6-5A55-4C04-8A12-7E16868E0043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474A70F6-5A55-4C04-8A12-7E16868E0043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E94822-6C46-4B6D-8586-A6C559E1987B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E94822-6C46-4B6D-8586-A6C559E1987B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E94822-6C46-4B6D-8586-A6C559E1987B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E94822-6C46-4B6D-8586-A6C559E1987B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{474A70F6-5A55-4C04-8A12-7E16868E0043} = {A2DD18E2-6BFB-427F-96B1-11E09F9D5878}
+		{64E94822-6C46-4B6D-8586-A6C559E1987B} = {A2DD18E2-6BFB-427F-96B1-11E09F9D5878}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {580F60DC-6936-4DDF-821E-C5919C38CF40}
+	EndGlobalSection
+EndGlobal
